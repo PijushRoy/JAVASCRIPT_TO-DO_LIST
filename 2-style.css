@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input,
+button {
+    box-shadow: none!important;
+    outline: none!important;
+}
+
+li.list-group-item:nth-child(2n + 2) {
+    background: rgb(241, 241, 241)!important;
+}
+
+.list-group-item{
+    margin-top: 10px;
+    border: 1px solid #ddd!important;
+    border-radius: 5px!important;
+}
+
+.far {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.error-message {
+    font-size: 14px;
+    color: red;
+    display: block;
+    text-align: left;
+}
+
+.error{
+    height: 30px;
+}
